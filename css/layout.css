@@ -33,7 +33,7 @@ body {
     grid-area: footer;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .wrapper {
         grid-template-columns: 20% auto;
         grid-template-areas:
@@ -44,7 +44,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
     .wrapper {
         grid-gap: 20px;
         grid-template-columns: 120px auto 120px;
